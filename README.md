@@ -68,7 +68,7 @@ Currently, Phasebook users find each other only by providing each other their pr
   - age
   - occupation
 - Specifically, you need to implement the `search_users` function under `phasebook/search.py`.
-- The function should return the list of users that match the search parameters, as defined in the **Search Specifications** section.
+- **(IMPORTANT)** The function should return the list of users that match the search parameters, as defined in the **Search Specifications** section.
 - You can test the search functionality using the data in the `USERS` constant.
 - Example calls to the search endpoint are:
   - http://127.0.0.1:5000/search?id=1
